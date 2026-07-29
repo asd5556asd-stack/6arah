@@ -32,7 +32,7 @@ async function startLoop() {
             await sleep(2000); // انتظار ثانيتين
 
             // 4. إرسال أمر التحالف
-            await client.messaging.sendGroupMessage(CHANNEL_ID, '!ط خزينة ايداع كل');
+            await client.messaging.sendGroupMessage(CHANNEL_ID, '!ط خزينة إيداع كل');
 
             console.log('تم الانتهاء من إرسال الأوامر. جاري الانتظار لمدة 6 دقائق...');
             
